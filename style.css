@@ -163,3 +163,14 @@ img.pattern-background-mobile {
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 407px) {  
+    .plan-box {
+        grid-template-columns: auto 1fr;
+        grid-template-rows: 1fr auto;
+    }
+
+    .change-plan-btn {
+        grid-column-start: 2;
+    }
+}
