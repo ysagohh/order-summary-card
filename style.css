@@ -147,10 +147,6 @@ img.pattern-background-mobile {
         margin: 1em;
     }
 
-    main {
-        padding: 1em 2em;
-    }
-
     img.pattern-background-desktop {
         display: none;
     }
@@ -165,9 +161,18 @@ img.pattern-background-mobile {
 }
 
 @media only screen and (max-width: 407px) {  
+    .container {
+        min-height: 720px;
+    }
+    
+    main {
+        padding: 1em 2em;
+    }
+
     .plan-box {
         grid-template-columns: auto 1fr;
         grid-template-rows: 1fr auto;
+        padding: 1.3em;
     }
 
     .change-plan-btn {
