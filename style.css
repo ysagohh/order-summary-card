@@ -162,7 +162,7 @@ img.pattern-background-mobile {
 
 @media only screen and (max-width: 407px) {  
     .container {
-        min-height: 720px;
+        min-height: 730px;
     }
     
     main {
